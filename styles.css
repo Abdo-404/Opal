@@ -96,7 +96,7 @@
       min-height: 100vh;
       width: 100%;
     }
-    .hero-right p {
+    .hero-right p, .contact p {
       font-size: 20px;
       width: 50%;
     }
@@ -287,6 +287,10 @@
         url('img27.jpg') center/cover no-repeat;
     }
 
+    .contact img{
+      width: 15%;
+    }
+
     .footer-bar {
       background: #95959595;
       padding: 10px;
@@ -391,7 +395,7 @@
         text-align: left;
       }
       
-      .hero-right p {
+      .hero-right p, .contact p  {
         width: 100%;
       }
 
