@@ -393,8 +393,8 @@
         display: block; /* move second part to new line */
       }
 
-      .feature h2, h3 {
-         font-size: 14px;
+      .projects h3, h2 {
+         font-size: 8px;
       }
        
       .feature img {
