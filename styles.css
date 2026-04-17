@@ -67,6 +67,7 @@
     .hero-copy h1 span { color: #c89b4b; }
 
     .hero-copy p {
+      width: 50%;
       margin-top: 30px;
       font-size: 32px;
       color: #c89b4b;
