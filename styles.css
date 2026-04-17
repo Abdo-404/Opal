@@ -284,6 +284,7 @@
     .contact {
       background: linear-gradient(-70deg, transparent 52%,#b3832e 52% 52.1%,black 52%),
       linear-gradient(-70deg, transparent 50%,#b3832e 50% 50.1%,black 50%),
+      linear-gradient(to left,rgba(0,0,0,0), rgba(0,0,0,0.9)50%),
         url('img27.jpg') center/cover no-repeat;
     }
 
