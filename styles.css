@@ -27,11 +27,7 @@
     }
     .container { width: 100%; max-width: 1400px; margin: auto; }
 
-    .hero-left {
-      background: linear-gradient(-70deg, transparent 60%,#b3832e 0%,black 61%),
-      linear-gradient(70deg,black 40%,#b3832e 0%,transparent 41%),
-        url('img19.jpg') center/cover no-repeat;
-      
+    .hero-left {      
       background: 
         linear-gradient(to right,rgba(0,0,0,0.9) 40%, rgba(0,0,0,0)),
         linear-gradient(-60deg, rgba(0,0,0,0.7) 15%,#ffa200 15% 15.2%,transparent 15%),
@@ -476,3 +472,55 @@
     .btn:hover {
       background: #a67c2f;
     }
+
+.slideshow-container {
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 5%;
+}
+
+.slide {
+  text-align: center;
+  display: none;
+  position: relative;
+  border-radius: 15px;
+}
+
+.slide img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Caption */
+.caption {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+      color: #c89b4b;
+      font-weight: 700;
+  padding: 15px;
+      font-size: 32px;
+}
+
+/* Fade animation */
+.fade {
+  animation: fadeEffect 2s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slide img {
+    height: 250px;
+  }
+  .caption {
+    font-size: 14px;
+  }
+}
